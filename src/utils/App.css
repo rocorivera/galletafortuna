@@ -1,0 +1,46 @@
+.galleta{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.title{
+    text-shadow: 0.15em 0.15em rgba(139, 135, 135, 0.5) ;
+    font-size: 5rem;
+    color:black;
+    font-weight:bolder;
+}
+.phrase_galleta{
+    width: 100%;
+    max-width: 30em;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 2em 2.8em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+    font-size:xx-large;
+    font-weight:bolder;
+    color: black;
+    text-shadow: 0.15em 0.15em rgba(116, 113, 113, 0.459);
+}
+.btn_gallet{
+    padding: 0.8em 1.2em;
+    border-radius: 0.7em;
+    font-size: 2rem;
+    opacity: 0.7;
+    cursor: pointer;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    transition: opacity 200ms ease,
+                transforn 200ms ease;
+                box-shadow: 200ms ease;
+}
+.btn_gallet:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black,0 0 40px black, 0 0 80px black ;
+    transition-delay: 200ms;
+}
